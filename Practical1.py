@@ -1,4 +1,17 @@
-studentName = "Tshering Yangchen Bedha"
-studentNumber = "02240134555"
+name =("Jigme")
+print(name)
+small = True
+print(small)
 
-print("My name is " + studentName + " and my student number is " + studentNumber)
+a = 5
+b = 7
+c = a*b
+print(c)
+
+Dorji = 23
+Tobgay = 20
+if Dorji>Tobgay:
+
+    print("Dorji is older than Tobgay")
+else:
+    print("Kezang is older than Dorji")
