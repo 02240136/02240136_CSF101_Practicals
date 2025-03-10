@@ -10,18 +10,14 @@ arraylen = len(newArray)
 for index in range(arraylen):
     print(newArray[index])
 
-newArray = ["ECE", "Cv", "IT", "ME", "WRE", "EE", "SWE", "ICE", "arch", "EG"]
-print("Original array: ", newArray)
 
-lowercasearray = [str(item).lower() for item in newArray]
-print("lowercase array: ", lowercasearray)
+newArray = ["IT", "ECE", "SWE", "WRE", "MCM", "ME", "EE", "A" , "ICE", "MRE"]
 
-sampleArray = ["ECE", "CV", "IT", "ME", "WRE", "EE", "SWE", "ICE", "ARCH", "EG"]
-arraylen = len(sampleArray)
-newArray = []
-for index in range(arraylen):
-    allElement = sampleArray[index]
-    newArray.append(allElement.lower())
+newArraylen = len(newArray)
+new_array = []
 
-for secondindex in range(len(newArray)):
-    print(newArray[secondindex]) 
+for index in range(newArraylen):
+    elements = newArray[index]
+    new_array.append(elements.lower())
+for secondindex in range(len(new_array)):
+    print(new_array[secondindex])
